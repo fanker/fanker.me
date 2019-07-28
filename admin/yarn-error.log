@@ -1,0 +1,85 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;D:\Program Files\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Fiddler;C:\Users\Administrator\AppData\Roaming\npm;D:\Program Files\Microsoft VS Code\bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Administrator\Desktop\fanker.me\end\package.json: Unexpected token / in JSON at position 465
+      at JSON.parse (<anonymous>)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "end",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "webpack --config webpack.dev.js",
+      "start": "webpack-dev-server --open",
+      "build": "webpack --config webpack.prod.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "antd": "^3.16.6",
+      "braft-editor": "^2.2.10",
+      "braft-extensions": "0.0.18",
+      // "draft-js-prism": "^1.0.6",
+      // "html-table-to-json": "^0.4.0",
+      "moment": "^2.24.0",
+      // "prismjs": "^1.16.0",
+      "react": "^16.8.6",
+      // "react-color": "^2.17.3",
+      "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.4.4",
+      "@babel/plugin-proposal-class-properties": "^7.4.4",
+      "@babel/plugin-transform-runtime": "^7.4.4",
+      "@babel/preset-env": "^7.4.4",
+      "@babel/preset-react": "^7.0.0",
+      "@babel/runtime": "^7.4.4",
+      "babel-eslint": "^10.0.1",
+      "babel-loader": "^8.0.5",
+      "babel-minify-webpack-plugin": "^0.3.1",
+      "babel-plugin-import": "^1.11.0",
+      "clean-webpack-plugin": "^2.0.1",
+      "css-loader": "^2.1.1",
+      "eslint": "^5.16.0",
+      "eslint-config-airbnb": "^17.1.0",
+      "eslint-plugin-import": "^2.17.2",
+      "eslint-plugin-jsx-a11y": "^6.2.1",
+      "eslint-plugin-react": "^7.12.4",
+      "file-loader": "^3.0.1",
+      "html-webpack-plugin": "^3.2.0",
+      "mini-css-extract-plugin": "^0.6.0",
+      "style-loader": "^0.23.1",
+      "terser-webpack-plugin": "^1.2.3",
+      "webpack": "^4.30.0",
+      "webpack-cli": "^3.3.1",
+      "webpack-dev-server": "^3.3.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
