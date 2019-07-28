@@ -1,0 +1,25 @@
+.my-editor {
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+.ant-menu-inline {
+  border: none;
+}
+.login-center {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.tag-list {
+  position: relative;
+  width: 25%;
+  text-align: center;
+}
+.tag-list .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

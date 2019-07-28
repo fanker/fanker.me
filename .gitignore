@@ -1,0 +1,17 @@
+
+admin/node_modules
+admin/dist
+
+application
+
+blog/node_modules
+blog/.next
+blog/out
+
+front
+
+httpproxy
+
+nodeserver/node_modules
+
+*.zip
