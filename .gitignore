@@ -2,18 +2,22 @@
 
 admin/node_modules
 admin/dist
+admin/package-lock.json
 
 application
 
 blog/node_modules
 blog/.next
 blog/out
+blog/package-lock.json
+blog/yarn.lock
 
 front
 
 httpproxy
 
 nodeserver/node_modules
+nodeserver/package-lock.json
 
 *.zip
 
