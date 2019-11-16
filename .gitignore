@@ -15,3 +15,5 @@ httpproxy
 nodeserver/node_modules
 
 *.zip
+
+backup
